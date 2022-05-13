@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../style/Dashboard-kit-overview.css">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Dashboard Kit Overview</title>
+    <meta name="author" content="ogunneye oyinkansola">
+    <meta name="keyword" content="ticket, transport, travel, plane, agent, ideas,today's trends, trends">
+    <meta name="description" content="Dashboard Kit">
+</head>
+
+<div class="sidebar">
+    <div class="sidebar-brand">
+        <img src="../images/logo-login.png">
+        <p>Dashboard kit</p>
+    </div>
+
+    <div class="sidebar-menu">
+        <ul>
+            <li>
+                <a class="active" href="#"><i class="fa-solid fa-chart-pie"></i><span>Overview</span></a>
+            </li>
+            <li>
+                <a class="list" href="Dashboard-kit-ticket.html"><i class="fa-solid fa-ticket"></i><span>Ticket</span></a>
+            </li>
+            <li>
+                <a class="list" href="#"><i class="fa-solid fa-lightbulb"></i><span>Ideas</span></a>
+            </li>
+            <li>
+                <a class="list" href="#"><i class="fa-solid fa-user-group"></i><span>Contacts</span></a>
+            </li>
+            <li>
+                <a class="list" href="#"><i class="fa-solid fa-medal"></i></span><span>Agents</span></a>
+            </li>
+            <li>
+                <a class="list" href="#"><i class="fa-solid fa-newspaper"></i><span>Articles</span></a>
+            </li>
+
+            <div>
+                <li class="sidebar-divider">
+                    <a class="list" href="#"><i class="fa-solid fa-medal"></i><span>Settings</span></a>
+                </li>
+                <li>
+                    <a class="list" href="#"><i class="fa-solid fa-medal"></i><span>Subscription</span></a>
+                </li>
+            </div>
+        </ul>
+    </div>
+</div>
+
+<section class="dashboard">
+
+    <header>
+        <h2>Overview</h2>
+        <div class="profile">
+            <div class="icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-bell"></i>
+            </div>
+            <span class="line"></span>
+            <p class="name">Jones Ferdinand</p>
+            <img class="admin" src="../images/admin.png">
+        </div>
+    </header>
+
+    <div class="wrapper">
+        <div class="wrapper-box">
+            <p class="wrapper-title">Unresolved</p>
+            <p class="wrapper-number">60</p>
+        </div>
+        <div class="wrapper-box">
+            <p class="wrapper-title">Overdue</p>
+            <p class="wrapper-number">16</p>
+        </div>
+        <div class="wrapper-box">
+            <p class="wrapper-title">Open</p>
+            <p class="wrapper-number">43</p>
+        </div>
+        <div class="wrapper-box">
+            <p class="wrapper-title">On hold</p>
+            <p class="wrapper-number">64</p>
+        </div>
+    </div>
+
+    <section class="trends">
+        <img src="../images/Today’s.png">
+    </section>
+
+    <section class="ticket-task">
+        <div class="Unresolvedticket">
+            <div class="Unresolved">
+                <div class="ticket">
+                    <p>Unresolved tickets</p>
+                </div>
+                <div class="viewdetails">
+                    <a href="#">View details</a>
+                </div>
+            </div>
+            <div class="group-support">
+                <span>Group:<b>Support</b></span>
+            </div>
+            <div>
+                <div class="Unresolved-issues waiting">
+                    <p class="issues">Waiting on Feature Request</p>
+                    <p class="figure">4238</p>
+                </div>
+                <div class="Unresolved-issues">
+                    <p class="issues">Awaiting Customer Response</p>
+                    <p class="figure">1005</p>
+                </div>
+                <div class="Unresolved-issues">
+                    <p class="issues">Awaiting Developer Fix</p>
+                    <p class="figure">914</p>
+                </div>
+                <div style="border-bottom: none;" class="Unresolved-issues">
+                    <p class="issues">Pending</p>
+                    <p class="figure">281</p>
+                </div>
+            </div>
+        </div>
+        <!-- second section task of unresolved ticket-->
+
+        <div class="tasks">
+            <div class="Unresolved">
+                <div class="ticket">
+                    <p>Tasks</p>
+                </div>
+                <div class="viewdetails">
+                    <a href="#">View all</a>
+                </div>
+            </div>
+            <div class="group-support">
+                <span>Today</span>
+            </div>
+            <div class="task waiting">
+                <p class="creat">Create new task</p>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+
+            <div>
+                <form>
+                    <div class="task-check">
+                        <input type="checkbox" name="Finished" value="Finish"><span>Finish ticket update</span>
+                        <button class="tag orange-btn">URGENT</button>
+                    </div>
+                    <div class="task-check">
+                        <input type="checkbox" name="Finished" value="Finish"><span style="margin-left: 15px;">Creat new ticket example</span>
+                        <button class="tag green-btn">NEW</button>
+                    </div>
+                    <div style="border-bottom: none;" class="task-check">
+                        <input type="checkbox" name="Finished" value="Finish" checked><span>Update ticket report</span>
+                        <button class="tag gray-btn">DEFAULT</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        </div>
+    </section>
+</section>
+</body>
+
+</html>

@@ -41,13 +41,21 @@ login.addEventListener("click", () => {
 function validate() {
     var email = document.getElementById("email").value;
     var pass = document.getElementById("pass").value;
-    var check = /[DEF]253[10-40][1-6]/i
+    var check = /[DEF]253[10-30][1-6]/i
+
+    if ((check.test(pass))) {
+        alert("Sign-in successful");
+    } else {
+        alert("Wrong password");
+        return false;
+    }
 
     if (email.trim() == "" || pass.trim() == "") {
         alert("Missing credentials");
         return false;
 
-    } else if (!(email == "ogunneyeoyinkansola@gmail.com")) {
+    } else
+    if (!(email == "ogunneyeoyinkansola@gmail.com")) {
         alert("Account does not exist");
         return false;
     } else {
@@ -55,12 +63,8 @@ function validate() {
         return true;
     }
 
-    if ((check.test(pass))) {
-        alert("Sign-in successful")
-    } else {
-        alert("Wrong password")
-        return false;
-    }
+
+
 }
 
 //for validating signin form

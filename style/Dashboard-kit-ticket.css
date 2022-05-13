@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    user-select: none;
+}
+
+body {
+    background: #F7F8FC;
+}
+
+::-webkit-scrollbar {
+    width: .9rem;
+}
+
+::-webkit-scrollbar-track {
+    margin-block: .5rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #3F4049;
+    width: 1rem;
+    height: 30px;
+    border-radius: 100vw;
+    -webkit-border-radius: 100vw;
+    -moz-border-radius: 100vw;
+    -ms-border-radius: 100vw;
+    -o-border-radius: 100vw;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #70727c;
+}
+
+.sidebar {
+    width: 13.75rem;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: #363740;
+}
+
+.sidebar-brand img {
+    max-width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 34px;
+    left: 30px;
+}
+
+.sidebar-brand p {
+    position: absolute;
+    left: 76px;
+    top: 41px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.0625rem;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #A4A6B3;
+    opacity: 0.7;
+}
+
+.sidebar-menu ul {
+    position: absolute;
+    top: 124px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 13.75rem;
+    background: #363740;
+}
+
+.sidebar-menu li a {
+    display: block;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #A4A6B3;
+    padding: 15px 35px;
+    /** top and bottom, right and left*/
+    text-decoration: none;
+}
+
+.sidebar-menu li a.active {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    margin-top: 1rem;
+    color: #DDE2FF;
+    background: #3F4049;
+    border-left: 4px solid #DDE2FF;
+}
+
+.sidebar-menu .list {
+    margin-top: 1rem;
+}
+
+.sidebar-menu .list:hover {
+    color: #fff;
+    background: #3F4049;
+    border-left: 4px solid #DDE2FF;
+}
+
+.sidebar-menu i {
+    margin-right: 25px;
+    color: #C5C7CD;
+    opacity: 0.4
+}
+
+.sidebar-divider {
+    margin-top: 1rem;
+    border-top: 1px groove #DFE0EB;
+}
+
+.dashboard {
+    background: #F7F8FC;
+    margin-top: 39px;
+    margin-left: 220px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile {
+    display: flex;
+}
+
+.icon {
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+.line {
+    border-left: 1px solid #E7E8F0;
+    padding-left: 30px;
+    margin-top: 7px;
+    height: 30px;
+}
+
+.icon i {
+    margin-right: 20px;
+    font-size: 14px;
+    color: #C5C7CD;
+}
+
+.name {
+    margin-top: 14px;
+    font-size: 14px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #3F414C;
+}
+
+.admin {
+    margin-left: 15px;
+    border-radius: 50%;
+    border: 1.5px solid #E7E8F0;
+}
+
+.tickets {
+    margin-top: 38px;
+    background: #ffff;
+    border: 1px solid #E7E8F0;
+    border-radius: 8px;
+    padding-bottom: 30px;
+}
+
+.header-sub {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px 20px 30px;
+    /**padding-top, padding-right, padding-bottom, padding-left*/
+}
+
+.ticket {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #252733;
+}
+
+.header-sub-2 {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #E7E8F0;
+    padding: 28px 30px 12px 30px;
+    /**padding-top, padding-right, padding-bottom, padding-left*/
+}
+
+.icon8 {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #4B506D;
+}
+
+.sort-icon {
+    margin-right: 30px;
+}
+
+.icon-sub {
+    margin-right: 8px;
+    color: #E7E8F0;
+}
+
+.priority {
+    margin-right: 100px;
+}
+
+.details {
+    width: 7rem;
+    margin-right: 100px;
+}
+
+.date {
+    margin-right: 50px;
+}
+
+.customer {
+    width: 7rem;
+    margin-left: 120px;
+}
+
+.ticket-name {
+    width: 16rem;
+    margin-right: 100px;
+    margin-left: 24px;
+}
+
+.ticket-list {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    color: #9FA2B4;
+}
+
+.article {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #E7E8F0;
+    padding: 28px 30px 20px 30px;
+    /**padding-top, padding-right, padding-bottom, padding-left*/
+}
+
+.article:hover {
+    background: #F7F8FF;
+    cursor: grab;
+}
+
+.article p {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #252733;
+}
+
+.article span {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1px;
+    color: #C5C7CD;
+}
+
+.article i {
+    color: #C5C7CD;
+}
+
+.conplains {
+    display: flex;
+}
+
+.customer-name {
+    width: 7rem;
+    margin-left: -80px;
+}
+
+.registration-date {
+    width: 6rem;
+    margin-left: 10px;
+}
+
+.button {
+    border-radius: 20px;
+    height: 30px;
+    padding-top: 5px;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-bottom: 0;
+    color: #ffffff;
+}
