@@ -1,7 +1,7 @@
-# Ogunneye oyinkansola - Admin-Dashboard-UI-Kit
+# Ogunneye Oyinkansola - Admin-Dashboard-UI-Kit
 
 ## Welcome! 👋
-Thanks for checking out this Dashboard-UI-kit.
+Thank you for checking out this Dashboard-UI-kit.
 
 ## Acess to the form
 
@@ -30,4 +30,4 @@ Work in process on the remain sections: Ideas, Contact, Agents, Articles, Settin
 
 ## Author
 
--Email - [ogunneyeoyinkansola@gmail.com]
+- Email - [ogunneyeoyinkansola@gmail.com]
